@@ -1,6 +1,0 @@
-Github repo
-https://github.com/jfjensen/SLAM/blob/master/Unit_D/slam_07_f_kalman_filter_question.py
-
-
-Youtube vedio:
-slam lectures by claus brenner
