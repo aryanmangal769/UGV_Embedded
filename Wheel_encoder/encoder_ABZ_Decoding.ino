@@ -47,9 +47,9 @@ void loop()
     rev_count ++;
     count=0;
 
-    Serial.print("***********************************rev_count = "); 
-    Serial.println(rev_count);
-    Serial.println("------------------");
+//     Serial.print("***********************************rev_count = "); 
+//     Serial.println(rev_count);
+//     Serial.println("------------------");
   }
 
   previous_rev_ind = current_rev_ind;
@@ -72,11 +72,20 @@ void loop()
   {
     count += dir;
 
-    Serial.print("count = "); 
-    Serial.println(count);
-    Serial.println("=====================");
+//     Serial.print("count = "); 
+//     Serial.println(count);
+//     Serial.println("=====================");
   }
   previous_sine = current_sine;
+  
+  Serial.print(count);
+  Serial.print(",");
+  Serial.print("rev_count");
+  Serial.print(",");
+  Serial.print(count);
+  Serial.print(",");
+  Serial.print("rev_count");
+  
 
 
 
